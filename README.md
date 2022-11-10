@@ -14,7 +14,7 @@ What is [branch](https://docs.github.com/en/pull-requests/collaborating-with-pul
 # Push to main from other branch
 
 1. git checkout main
-2. git checkout (nama branch) -- (file path)
+2. git checkout (nama_branch) -- (file_path)
 3. git status <-- memeriksa status dari file yang sudah di add
 4. git commit -m '(Message)'
-5. git push
+5. git push origin main
