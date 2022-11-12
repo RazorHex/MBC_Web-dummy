@@ -18,3 +18,6 @@ What is [branch](https://docs.github.com/en/pull-requests/collaborating-with-pul
 3. git status <-- memeriksa status dari file yang sudah di add
 4. git commit -m '(Message)'
 5. git push origin main
+
+# Documentations
+1. [HTML Tags](https://www.w3schools.com/tags/)
