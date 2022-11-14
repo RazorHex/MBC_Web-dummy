@@ -1,3 +1,7 @@
+# Kelompok
+1. [Ahda Akmalul Ilmi](https://github.com/RazorHex)
+2. [Muhammad Rifan Aditya Putra](https://github.com/rifanadityaa)
+
 # CAUTION!
 Jangan push ke origin/main, branch main hanya dipake untuk codingan yang udah jadi dan siap di launch ke VM AWS, cara buat branch baru ada dibawah.
 
