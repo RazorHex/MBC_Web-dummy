@@ -4,15 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/styles_background.css">
+  <link rel="stylesheet" href="/CSS/styles_class.css">
   <title>MBC Dummy Website</title>
-  <link rel="stylesheet" href="../CSS/Landing.css">
 </head>
 <body>
-  <h1>MBC Dummy Website</h1>
-  <a href="about">About Me</a>
-  <img src="../Assets/scream cat.png" alt="Screaming Cat">
-  <p>
-    Sitting in the sun, away from everyone who had done him harm in the past, he quietly listened to those who roamed by. He felt at peace in the moment, hoping it would last, but knowing the reprieve would soon come to an end. He closed his eyes, the sun beating down on face and he smiled. He smiled for the first time in as long as he could remember.
-  </p>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">The Site</a> <!-- Title -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"> <!-- Start of list -->
+            <a class="nav-link active" aria-current="page" href="/">Home</a> <!-- Home -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about">About</a> <!-- About -->
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <img src="../Assets/739o8kovccw71.png" alt="background" class="background-image">
 </body>
 </html>
