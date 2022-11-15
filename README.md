@@ -1,2 +1,2 @@
 # Progress on ahda's branch
-![](./Assets/hasil_1.png)
+1. ![](./Assets/hasil_1.png)
