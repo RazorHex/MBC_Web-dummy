@@ -1,8 +1,12 @@
 body{
-  background-color: rgb(30,33,36);
+  background-image: url(../Assets/739o8kovccw71.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-img{
+/* img{
   width: 100%;
   height: auto;
-}
+  object-fit: contain;
+} */
