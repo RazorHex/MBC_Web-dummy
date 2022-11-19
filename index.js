@@ -1,6 +1,7 @@
 const express = require('express')
 const path = require('path')
 const app = express()
+const port = 9000
 
 app.use(express.static(path.join(__dirname, '/')))
 
@@ -12,4 +13,4 @@ app.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname, 'HTML/about.html'))
 })
 
-app.listen(9000, () => console.log('Listening on port 9000'))
+app.listen(port, () => console.log('Listening on port 9000'))
