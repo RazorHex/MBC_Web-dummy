@@ -1,0 +1,25 @@
+{
+  "name": "mbc_web-dummy",
+  "version": "1.0.0",
+  "description": "Jangan push ke origin/main, branch main hanya dipake untuk codingan yang udah jadi dan siap di launch ke VM AWS, cara buat branch baru ada dibawah.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm outdated && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazorHex/MBC_Web-dummy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazorHex/MBC_Web-dummy/issues"
+  },
+  "homepage": "https://github.com/RazorHex/MBC_Web-dummy#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
